@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="#BAD7E9">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/polinema" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang di To-Do-List Polinema"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:background="@drawable/rounded_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:background="@drawable/rounded_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="8dp" />
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_marginTop="16dp">-->
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/website"-->
+    <!--            android:scaleType="fitCenter"-->
+    <!--            android:layout_width="48dp"-->
+    <!--            android:layout_height="48dp"-->
+    <!--            android:src="@drawable/instagram"-->
+    <!--            android:contentDescription="Open Website" />-->
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/maps"-->
+    <!--            android:scaleType="fitCenter"-->
+    <!--            android:layout_width="48dp"-->
+    <!--            android:layout_height="48dp"-->
+    <!--            android:src="@drawable/maps"-->
+    <!--            android:contentDescription="Open Maps" />-->
+
+    <!--    </LinearLayout>-->
+
+</LinearLayout>
+
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:gravity="center"-->
+<!--    android:padding="16dp"-->
+<!--    tools:context=".MainActivity">-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:src="@drawable/polinema" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Selamat Datang di TodoList Poliea"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginTop="16dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/loginButton"-->
+<!--        android:background="@color/primary"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Login"-->
+<!--        android:layout_marginTop="16dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/registerButton"-->
+<!--        android:background="@color/primary"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Register"-->
+<!--        android:layout_marginTop="8dp" />-->
+
+<!--&lt;!&ndash;    <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:orientation="horizontal"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="16dp">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <ImageButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/website"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:scaleType="fitCenter"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="48dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="48dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:src="@drawable/instagram"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:contentDescription="Open Website" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <ImageButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/maps"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:scaleType="fitCenter"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="48dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="48dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:src="@drawable/maps"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:contentDescription="Open Maps" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;    </LinearLayout>&ndash;&gt;-->
+
+<!--</LinearLayout>-->

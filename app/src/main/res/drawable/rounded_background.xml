@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="150dp" /> <!-- Jari-jari sudut tombol -->
+    <solid android:color="#2B3467" /> <!-- Warna latar belakang tombol -->
+</shape>

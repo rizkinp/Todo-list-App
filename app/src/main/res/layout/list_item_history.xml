@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewTopic"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/topik"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:drawableLeft="@drawable/done"
+        android:drawablePadding="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp" />
+
+</LinearLayout>
+
+
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="8dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewTopic"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewStatus"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="14sp" />-->
+
+<!--</LinearLayout>-->

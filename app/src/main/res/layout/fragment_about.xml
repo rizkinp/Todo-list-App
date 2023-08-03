@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="AboutFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="-16dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="315dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:layout_height="130dp"
+                android:src="@drawable/polinema" />
+
+            <TextView
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:text="Politeknik Negeri Malang"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Politeknik Negeri Malang (disingkat Polinema) adalah salah satu perguruan tinggi vokasi di Indonesia yang terletak di Kota Malang, Provinsi Jawa Timur. Polinema didirikan pada tahun 1982 dan merupakan salah satu politeknik pertama yang dibangun di Indonesia. Sejak awal berdirinya, Polinema telah fokus pada pendidikan vokasi dan pengembangan keahlian praktis dalam berbagai bidang."
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:text="Video Polinema"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnPlay" />
+
+            <VideoView
+                android:id="@+id/videoView2"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintDimensionRatio="w,16:9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="66dp"
+                            android:gravity="center"
+                            app:layout_constraintTop_toBottomOf="@+id/videoView2">
+
+                            <ImageView
+                                android:id="@+id/maps"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="28dp"
+                                android:layout_marginEnd="28dp"
+                                android:background="@drawable/rounded_background"
+                                android:src="@drawable/maps" />
+
+                            <ImageView
+                                android:id="@+id/instagram"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="28dp"
+                                android:layout_marginEnd="28dp"
+                                android:background="@drawable/rounded_background"
+                                android:src="@drawable/instagram" />
+
+                            <!-- Tambahkan ImageView baru sesuai kebutuhan -->
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="28dp"
+                                android:layout_marginEnd="28dp"
+                                android:src="@drawable/google" />
+                        </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                android:text="copyright @RizkiNurPratama @RinaDwiOktavia"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:context="AboutFragment">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical"-->
+<!--            tools:layout_editor_absoluteX="89dp"-->
+<!--            tools:layout_editor_absoluteY="-16dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView"-->
+<!--                android:layout_width="315dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_height="130dp"-->
+<!--                android:src="@drawable/polinema" />-->
+
+<!--            <TextView-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="PSDKU Politeknik Negeri Malang di Kota Kediri"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:fontFamily="sans-serif-black"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Critics Consensus"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_marginBottom="5dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Bloodshot gives Vin Diesel a solid opportunity to indulge in old-school action that should satisfy fans, even if the end result is disappointingly mediocre."-->
+<!--                android:textSize="25dp"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="@color/black"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:text="Video Polinema"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:textStyle="bold"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/btnPlay" />-->
+
+<!--            <VideoView-->
+<!--                android:id="@+id/videoView2"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:layout_marginEnd="16dp"-->
+<!--                app:layout_constraintDimensionRatio="w,16:9"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:gravity="center"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/videoView2">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/maps"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:layout_marginStart="28dp"-->
+<!--                    android:layout_marginEnd="28dp"-->
+<!--                    android:background="@drawable/rounded_background"-->
+<!--                    android:src="@drawable/maps" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/instagram"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:layout_marginStart="28dp"-->
+<!--                    android:layout_marginEnd="28dp"-->
+<!--                    android:background="@drawable/rounded_background"-->
+<!--                    android:src="@drawable/instagram" />-->
+
+<!--                &lt;!&ndash; Tambahkan ImageView baru sesuai kebutuhan &ndash;&gt;-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView3"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:layout_marginStart="28dp"-->
+<!--                    android:layout_marginEnd="28dp"-->
+<!--                    android:src="@drawable/google" />-->
+<!--            </LinearLayout>-->
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="75dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Copyright @RizkiNurPratama @RinaDwiOktavia"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="15dp" />-->
+<!--        </LinearLayout>-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--</ScrollView>-->

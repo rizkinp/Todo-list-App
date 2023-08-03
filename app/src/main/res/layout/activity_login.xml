@@ -1,0 +1,111 @@
+<!-- activity_login.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#BAD7E9"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LOGIN"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_marginTop="16dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/mail"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="16dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/padlock"
+            android:hint="Password" />
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_background"
+            android:text="Login" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah punya akun?" />
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@android:style/Widget.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Klik disini"
+            android:textColor="#EB455F" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+    <!--&lt;!&ndash; activity_login.xml &ndash;&gt;-->
+
+<!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="16dp">-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/etUsername"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Username" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/etPassword"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:hint="Password" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnLogin"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Login" />-->
+
+<!--</LinearLayout>-->

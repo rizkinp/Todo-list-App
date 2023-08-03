@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/border">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textViewId"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textViewUserId"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content" />-->
+
+    <TextView
+        android:id="@+id/textViewTopic"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/topik"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:drawableLeft="@drawable/deskripsi"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewMataKuliahId"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/buku"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewDueDate"
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/calendar"
+        android:layout_height="wrap_content"
+        android:textStyle="italic" />
+
+</LinearLayout>
+
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="10dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewId"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewUserId"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewTopic"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewDescription"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewMataKuliahId"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewDueDate"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textStyle="italic" />-->
+
+<!--</LinearLayout>-->
