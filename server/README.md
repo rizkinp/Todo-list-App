@@ -1,3 +1,30 @@
+## Project Todo List Application for Student using Kotlin and Laravel as server
+## Tampilan Dashboard
+![image](https://github.com/rizkinp/Todo-list-App/assets/103366502/4bf255b6-4e47-49f4-a0a1-b2a6e3b2fd5c)
+
+## Tampilan Login
+![image](https://github.com/rizkinp/Todo-list-App/assets/103366502/8056f680-feb5-4b7e-bcac-aaa7615244e4)
+
+## Tampilan Register
+![image](https://github.com/rizkinp/Todo-list-App/assets/103366502/ab029795-308c-4a1e-9f6f-edeaa2259d76)
+
+## Tampilan Input Data
+![image](https://github.com/rizkinp/Todo-list-App/assets/103366502/d0ad6e6f-9dc1-4fb3-be41-1191a80eb669)
+
+## Tampilan Akun
+![image](https://github.com/rizkinp/Todo-list-App/assets/103366502/2a76b66a-7aa1-47e2-b5e5-05028ee25e2b)
+
+## Tampilan Tugas
+![image](https://github.com/rizkinp/Todo-list-App/assets/103366502/4a294f44-9c1a-4b24-9420-0fba1b4a3de5)
+
+## Tampilan Home
+![image](https://github.com/rizkinp/Todo-list-App/assets/103366502/a672b9c0-73d9-41e2-91e4-e1eda1dad950)
+
+## List Item
+![image](https://github.com/rizkinp/Todo-list-App/assets/103366502/b5cab58e-70b3-41f5-ab30-805e697f526b)
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
